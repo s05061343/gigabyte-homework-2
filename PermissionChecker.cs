@@ -17,6 +17,7 @@ namespace gigabyte_homework_2
             var sql = @"
             SELECT 
                 u.UserName,
+                MAX(r.RoleName) AS RoleName,
                 f.FunctionName,
                 MAX(CAST(rfp.CanCreate AS INT)) AS CanCreate,
                 MAX(CAST(rfp.CanRead AS INT)) AS CanRead,

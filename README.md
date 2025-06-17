@@ -1,5 +1,8 @@
 # 用戶角色權限系統資料庫架構
 
+## 主要SQL檔案  
+user_role_permission_schema.sql
+
 ## 資料表結構
 
 ### Users 表 - 用戶
